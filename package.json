@@ -1,0 +1,23 @@
+{
+  "name": "jest-101",
+  "version": "1.0.0",
+  "description": "You can user this this boilerplate as a templet",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhdez221993/jest-101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mhdez221993/jest-101/issues"
+  },
+  "homepage": "https://github.com/Mhdez221993/jest-101#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
