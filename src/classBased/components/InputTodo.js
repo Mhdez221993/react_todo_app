@@ -1,46 +1,57 @@
-import React, { Component } from "react"
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class InputTodo extends Component {
-  constructor(props){
-    super(props)
+  constructor(props) {
+    super(props);
     this.state = {
       title: '',
-    }
+    };
   }
 
   onChange = e => {
     this.setState({
       [e.target.name]: e.target.value,
-    })
+    });
   };
 
   handleSubmit = e => {
+    const { title } = this.state;
+    const { addTodoItemProps } = this.props;
     e.preventDefault();
-    if(this.state.title.trim()){
-      this.props.addTodoItemProps(this.state.title)
+    if (title.trim()) {
+      addTodoItemProps(title);
       this.setState({
-        title: ''
-      })
-    }else{
-      alert('Please write a todo')
+        title: '',
+      });
+    } else {
+      alert('Please write a todo'); // eslint-disable-line  no-alert
     }
   };
 
   render() {
+    const { title } = this.state;
     return (
-      <form onSubmit={ this.handleSubmit } className="form-container">
+      <form onSubmit={this.handleSubmit} className="form-container">
         <input
-        type="text"
-        className="input-text"
-        placeholder="Add Todo..."
-        value={ this.state.title }
-        name="title"
-        onChange={this.onChange}
+          type="text"
+          className="input-text"
+          placeholder="Add Todo..."
+          value={title}
+          name="title"
+          onChange={this.onChange}
         />
-        <button className="input-submit">Submit</button>
+        <button className="input-submit" type="submit">Submit</button>
       </form>
-    )
+    );
   }
 }
 
-export default InputTodo
+InputTodo.propTypes = {
+  // todos: PropTypes.objectOf(PropTypes.object()).isRequired,
+  // handleChangeProps: PropTypes.func.isRequired,
+  // deleteTodoProps: PropTypes.func.isRequired,
+  addTodoItemProps: PropTypes.func.isRequired,
+};
+
+export default InputTodo;
