@@ -1,7 +1,7 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
-# Math Magicians
+# React Todo App
 
-In this project we will refactor the Calculator component we developed in the past projects. Instead of using class based components, we will use now hooks.
+In this project we will refactor the Todo App component we developed in the past projects. Instead of using class based components, we will use now hooks.
 
 ![screeshoot](./src/assess/math-magicians.png)
 
