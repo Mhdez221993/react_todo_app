@@ -1,11 +1,13 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
+
 # React Todo App
 
-In this project we will refactor the Todo App component we developed in the past projects. Instead of using class based components, we will use now hooks.
+In this React tutorial for beginners, you will learn how to build a React project step by step. Starting from the fundamentals, to building a React application and then deploying on the web.
 
 ![screeshoot](./src/assess/math-magicians.png)
 
 ## Built With
+
 - JavaScript
 - React
 - Webpack
@@ -13,7 +15,6 @@ In this project we will refactor the Todo App component we developed in the past
 - Node.JS
 - Jest
 - Cypress
-
 
 ## Getting Started
 
@@ -33,6 +34,7 @@ npm start
 ## Available Scripts
 
 ### `npm run e2s`
+
 To run end to end test with cypress
 
 In the project directory, you can run:
@@ -66,7 +68,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
@@ -79,6 +80,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 npx eslint .
 npx stylelint "**/*.{css,scss}"
 ```
+
 - Autofix linters errors
 
 ```cmd
@@ -100,7 +102,6 @@ npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-s
 - Twitter: [@MoisesH42060050](https://twitter.com/MoisesH42060050)
 - LinkedIn: [Moises Hernandez Coronado](https://www.linkedin.com/in/moises-hernandez-9bbb17145/)
 
-
 =======
 
 ## 🤝 Contributing
@@ -118,6 +119,7 @@ Give a ⭐️ if you like this project!
 =======
 
 ## Acknowledgments
+
 - Microverse for giving me this chance
 - To my Stand Up Team and coding partners who kept my morale up!
 - The amazing code reviewers for making me improve every day :thumbsup:
