@@ -4,7 +4,7 @@
 
 In this React tutorial for beginners, you will learn how to build a React project step by step. Starting from the fundamentals, to building a React application and then deploying on the web.
 
-![screeshoot](./src/assess/math-magicians.png)
+![Final Project](https://ibaslogic.com/a04023263939b5d0bfb5f32c0fce4598/react-todo-app_700.gif)
 
 ## Built With
 
@@ -20,15 +20,13 @@ In this React tutorial for beginners, you will learn how to build a React projec
 
 If you want a copy of this file go to the github repository and download it from there
 
-- [React Template](https://github.com/Mhdez221993/react-template)
-
 ### Setup
 
 ```cmd
-git clone  git@github.com:Mhdez221993/JavaScript-capstone-project.git
+git clone  git@github.com:Mhdez221993/react-todo-app.git
 cd JavaScript-capstone-project
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 ## Available Scripts
