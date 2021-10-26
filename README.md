@@ -5,6 +5,8 @@
 In this React tutorial for beginners, you will learn how to build a React project step by step. Starting from the fundamentals, to building a React application and then deploying on the web.
 
 ![Final Project](https://ibaslogic.com/a04023263939b5d0bfb5f32c0fce4598/react-todo-app_700.gif)
+<br>
+[Live](https://mhdez221993.github.io/react-todo-app/)
 
 ## Built With
 
